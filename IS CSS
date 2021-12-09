@@ -35,6 +35,7 @@
     pointer-events: all!important;
     transform: scale(1.4)
 }
+
 /* Combat screen health text and heart */
 .play-area-container .combat-current-health {
     position: absolute;
@@ -246,7 +247,7 @@
     left: 1px;
     top: 1px;
     height: 25px;
-    width: 70px;
+    width: 60px;
     background-color: rgba(0, 0, 0, .635);
     box-shadow: 0 5px 4px rgb(0 0 0/30%);
     font-size: medium;
@@ -254,14 +255,14 @@
 
 .combat-zone-group-size > img {
     height: 90%;
-    width: 50%;
+    width: 45%;
     margin-top: 1px;
     margin-right: 3px;
     margin-left: 2px;
 }
 
 /*  */
-.combat-gear-container {
+.play-area-container .combat-gear-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -271,14 +272,14 @@
 }
 
 /*  */
-.combat-gear {
+.play-area-container .combat-gear {
     position: relative;
     height: 348px;
     z-index: 10
 }
 
 /*  */
-.combat-gear > img {
+.play-area-container .combat-gear > img {
     height: 230px;
     min-width: 174px;
     display: block;
@@ -286,7 +287,7 @@
 }
 
 /*  */
-.combat-gear-item {
+.play-area-container .combat-gear-item {
     border: 2px solid hsla(0, 0%, 75.3%, .2);
     background-color: #333;
     position: absolute;
